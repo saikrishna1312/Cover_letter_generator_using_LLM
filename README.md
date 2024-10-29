@@ -7,7 +7,7 @@ This tool is designed to streamline the cover letter writing process by automati
 ## Features
   - Resume Processing: Extracts key information such as name, education, skills, and experience from .docx or .pdf resumes.
   - Job Posting Scraping: Scrapes job descriptions from a provided job URL using BeautifulSoup.
-  - AI-Powered Cover Letter Generation: Uses LLaMA (ChatGroq) to generate personalized cover letters based on the extracted resume information and job description.
+  - AI-Powered Cover Letter Generation: Uses LLaMA (llama-3.1-70b-versatile) model to generate personalized cover letters based on the extracted resume information and job description.
   - Streamlit UI: Provides an intuitive interface for users to upload their resume and input a job posting URL.
 
 ## Technologies Used
@@ -16,7 +16,7 @@ This tool is designed to streamline the cover letter writing process by automati
 ## Libraries/Frameworks: 
   - docx, PyMuPDF: Resume parsing and processing
   - BeautifulSoup, requests: Web scraping for job description extraction
-  - ChatGroq LLaMA: AI model for cover letter generation
+  - ChatGroq: Used LLaMa model from ChatGroq for the prompt and cover letter generation
   - Streamlit: Front-end interface for user interaction
   - NLP: Natural Language Processing for text extraction and analysis
   - Environment: Deployed locally with Python and Streamlit
