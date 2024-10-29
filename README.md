@@ -1,4 +1,4 @@
-# Cover Letter Generator (AI & NLP Automation)
+# Cover Letter Generator
 ## Project Overview
 The Cover Letter Generator is an AI-powered application that dynamically generates personalized cover letters by extracting key information from a resume and a job posting. The project leverages natural language processing (NLP) and large language models (LLaMA via ChatGroq) to automatically match skills, experience, and education from the resume with job requirements.
 
